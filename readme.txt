@@ -5,7 +5,7 @@ Requires at least: 3.0
 Tested up to: 3.1
 Stable tag: 1.0
 
-Allows site / network administrators to enforce BuddyPress group membership by locking users into groups
+Allows site or network administrators to enforce BuddyPress group membership by locking users into groups
 
 == Description ==
 
@@ -23,7 +23,7 @@ Functions are available for administrators to add membership enforcement to othe
 == Frequently Asked Questions ==
 
 = How do I enforce group membership? =
-* Either from the `Manage Members` tab in the group Admin section, or through BP Group Management (but see Known Issues)
+* Either from the `Manage Members` tab in the group Admin section, or through BP Group Management (see Known Issues)
 
 == Changelog ==
 
@@ -34,4 +34,4 @@ Functions are available for administrators to add membership enforcement to othe
 
 Currently known issues:
 
-* BP Group Management (0.42) has a bug so it doesn't handle the member action hook properly.  Links from the Group Management menu won't work until that is fixed, or until you modify the `bp-group-management-bp-functions.php` file.
+* BP Group Management (0.4.3) or higher is needed to use the links from within BP Group Management.
