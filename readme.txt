@@ -23,7 +23,7 @@ Functions are available for administrators to add membership enforcement to othe
 == Frequently Asked Questions ==
 
 = How do I enforce group membership? =
-* Either from the `Manage Members` tab in the group Admin section, or through BP Group Management (see Known Issues)
+* Either from the `Manage Members` tab in the group Admin section, or through BP Group Management
 
 == Changelog ==
 
@@ -32,3 +32,8 @@ Functions are available for administrators to add membership enforcement to othe
 
 = 1.0 =
 * Initial release
+
+== Upgrade Notice ==
+
+= 1.1 =
+Removed short open tags
