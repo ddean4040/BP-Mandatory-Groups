@@ -126,9 +126,9 @@ function bp_mandatory_groups_frontend_admin() {
 		
 		if( is_super_admin() ) {
 			bp_mandatory_groups_lock_user_in( $user_id, $bp->groups->current_group->id );
-			?><div id="message" class="updated"><p><?php printf( __( 'User %s locked in.', 'buddypress-mandatory-groups' ), $user_data->user_login ) ?></p></div><?
+			?><div id="message" class="updated"><p><?php printf( __( 'User %s locked in.', 'buddypress-mandatory-groups' ), $user_data->user_login ) ?></p></div><?php
 		} else {
-			?><div id="message" class="error"><p>Only super admins can lock/unlock users.</p></div><?
+			?><div id="message" class="error"><p>Only super admins can lock/unlock users.</p></div><?php
 		}
 		
 	} else if($bp->action_variables[1] == 'unlock' && check_ajax_referer($bp->mandatory_groups->meta_names['unlock_nonce'])) {
@@ -138,9 +138,9 @@ function bp_mandatory_groups_frontend_admin() {
 		
 		if( is_super_admin() ) {
 			bp_mandatory_groups_let_user_out( $user_id, $bp->groups->current_group->id );
-			?><div id="message" class="updated"><p><?php printf( __( 'User %s unlocked.', 'buddypress-mandatory-groups' ), $user_data->user_login ) ?></p></div><?
+			?><div id="message" class="updated"><p><?php printf( __( 'User %s unlocked.', 'buddypress-mandatory-groups' ), $user_data->user_login ) ?></p></div><?php
 		} else {
-			?><div id="message" class="error"><p>Only super admins can lock/unlock users.</p></div><?
+			?><div id="message" class="error"><p>Only super admins can lock/unlock users.</p></div><?php
 		}
 		
 	}

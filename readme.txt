@@ -2,8 +2,8 @@
 Contributors: ddean
 Tags: buddypress, groups, require, lock, mandatory, users, membership, enforcement
 Requires at least: 3.0
-Tested up to: 3.1
-Stable tag: 1.0
+Tested up to: 3.2.1
+Stable tag: 1.1
 
 Allows site or network administrators to enforce BuddyPress group membership by locking users into groups
 
@@ -27,11 +27,8 @@ Functions are available for administrators to add membership enforcement to othe
 
 == Changelog ==
 
+= 1.1 =
+* Fixed: removed short open tags
+
 = 1.0 =
 * Initial release
-
-== Known Issues ==
-
-Currently known issues:
-
-* BP Group Management (0.4.3) or higher is needed to use the links from within BP Group Management.
