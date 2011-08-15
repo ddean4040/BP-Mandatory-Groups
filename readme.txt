@@ -33,3 +33,7 @@ Functions are available for administrators to add membership enforcement to othe
 = 1.0 =
 * Initial release
 
+== Upgrade Notice ==
+
+= 1.1 =
+Removed short open tags
