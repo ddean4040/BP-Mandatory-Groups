@@ -28,7 +28,7 @@ Functions are available for administrators to add membership enforcement to othe
 == Changelog ==
 
 = 1.1 =
-* Fixed: removed short open tags
+* Fixed: Removed short open tags
 
 = 1.0 =
 * Initial release
