@@ -3,17 +3,17 @@
 Plugin Name: BuddyPress Mandatory Groups
 Plugin URI: http://www.jerseyconnect.net/development/buddypress-mandatory-groups/
 Description: Allows admins to prevent users from leaving groups
-Version: 1.1
-Revision Date: 08/09/2011
+Version: 1.2
+Revision Date: 09/19/2011
 Requires at least: WP 3.0, BuddyPress 1.2
-Tested up to: WP 3.1 , BuddyPress 1.2.9
+Tested up to: WP 3.2.1 , BuddyPress 1.5-RC-1
 License: Example: GNU General Public License 2.0 (GPL) http://www.gnu.org/licenses/gpl.html
 Author: David Dean
-Author URI: http://www.jerseyconnect.net/development/
+Author URI: http://www.generalthreat.com/
 */
 
 define ( 'BP_MANDATORY_GROUPS_IS_INSTALLED', 1 );
-define ( 'BP_MANDATORY_GROUPS_VERSION', '1.1' );
+define ( 'BP_MANDATORY_GROUPS_VERSION', '1.2' );
 define ( 'BP_MANDATORY_GROUPS_SLUG', 'mandatory-groups' );
 
 //load localization files if present
